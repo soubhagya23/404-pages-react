@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,900;1,400&display=swap");
+
+:root {
+  --pink: #e0bad7;
+  --aquamarine: #61d095;
+  --black: #262626;
+  --nfont: 'Nunito', sans-serif;
+}
+
+body{
+    font-family: var(--nfont);
+}
+
+.github-btn {
+  background-color: var(--aquamarine);
+  border-color: var(--aquamarine);
+  color: var(--black);
+  font-family: var(--nfont);
+  font-weight: 300;
+}
+
+
+
+.github-btn,.github-btn:hover, .github-btn:focus, .github-btn:active, .github-btn.active, .open > .dropdown-toggle.github-btn {
+    background: var(--aquamarine);
+    border-color: var(--aquamarine);
+    color: var(--black);
+    font-family: var(--nfont);
+    font-weight: 300;
+}
+
+.main-title{
+    font-family: var(--nfont);
+    font-weight: 100;
+}
+
