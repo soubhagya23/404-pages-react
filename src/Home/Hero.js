@@ -16,14 +16,14 @@ function Hero() {
     <div className="container col-xxl-8 px-4">
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div className="col-10 col-sm-8 col-lg-6">
-          <Lottie options={animationOption} height={400} width={700} />
+          <Lottie options={animationOption} height={400} width={700} style={{height:'auto', width:"auto"}}/>
         </div>
         <div className="col-lg-6">
           <h1 className="display-5 lh-1 mb-3">
-            404 Pages are <strike>not</strike> boring!
+            <span className="style-text">404 Pages</span> are <strike style={{color:'#61d095'}}>not</strike> boring!
           </h1>
           <p className="lead">
-            Introducing a ton of predesigned 404 pages which will engage your users even on amy error😎
+            Introducing a ton of predesigned 404 pages which will engage your users even on any error😎
           </p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button
@@ -34,7 +34,7 @@ function Hero() {
             </button>
             <button
               type="button"
-              className="btn btn-outline-secondary btn-lg px-4"
+              className="btn btn-outline-dark btn-lg px-4"
             >
               Say Thanks😍
             </button>
